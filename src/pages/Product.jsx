@@ -2,9 +2,6 @@ import React, { useEffect, useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import { Link, useParams } from "react-router-dom";
 import Marquee from "react-fast-marquee";
-import { useDispatch } from "react-redux";
-import { addCart } from "../redux/action";
-
 import { Footer, Navbar } from "../components";
 
 const Product = () => {
@@ -13,12 +10,6 @@ const Product = () => {
   const [similarProducts, setSimilarProducts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [loading2, setLoading2] = useState(false);
-
-  const dispatch = useDispatch();
-
-  const addProduct = (product) => {
-    dispatch(addCart(product));
-  };
 
   useEffect(() => {
     const getProduct = async () => {
@@ -84,15 +75,15 @@ const Product = () => {
               </p>
               <h3 className="display-6  my-4">${product.price}</h3>
               <p className="lead">{product.description}</p>
-              <button
+              {/* <button
                 className="btn btn-outline-dark"
                 onClick={() => addProduct(product)}
               >
                 Add to Cart
-              </button>
-              <Link to="/cart" className="btn btn-dark mx-3">
+              </button> */}
+              {/* <Link to="/cart" className="btn btn-dark mx-3">
                 Go to Cart
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -153,12 +144,6 @@ const Product = () => {
                     >
                       Buy Now
                     </Link>
-                    <button
-                      className="btn btn-dark m-1"
-                      onClick={() => addProduct(item)}
-                    >
-                      Add to Cart
-                    </button>
                   </div>
                 </div>
               );
