@@ -7,20 +7,9 @@ const AboutPage = () => {
       <div className="container my-3 py-3">
         <h1 className="text-center">About Us</h1>
         <hr />
-        <p className="lead text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          facere doloremque veritatis odit similique sequi. Odit amet fuga nam
-          quam quasi facilis sed doloremque saepe sint perspiciatis explicabo
-          totam vero quas provident ipsam, veritatis nostrum velit quos
-          recusandae est mollitia esse fugit dolore laudantium. Ex vel explicabo
-          earum unde eligendi autem praesentium, doloremque distinctio nesciunt
-          porro tempore quis eaque labore voluptatibus ea necessitatibus
-          exercitationem tempora molestias. Ad consequuntur veniam sequi ullam
-          tempore vel tenetur soluta dolore sunt maxime aliquam corporis est,
-          quo saepe dolorem optio minus sint nemo totam dolorum! Reprehenderit
-          delectus expedita a alias nam recusandae illo debitis repellat libero,
-          quasi explicabo molestiae saepe, dolorem tempore itaque eveniet quam
-          dignissimos blanditiis excepturi harum numquam vel nihil? Ipsum
+        <p className="lead text-center">      
+          Before purchasing any item, every customer searches for the best offers and discounts. Nowadays, consumers study things online before making any kind of purchase. Cost or pricing is one of the primary elements that influence a consumer's decision to buy a product. Before buying any product, shoppers frequently compare prices.
+          But since visiting each and every website to compare prices is quite challenging, there needs to be a way to automate this process. The project here for a pricing comparison website gathers data on product prices from multiple websites and shows it to consumers.
         </p>
 
         <h2 className="text-center py-4">Our Products</h2>

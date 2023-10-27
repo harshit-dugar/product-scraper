@@ -92,13 +92,13 @@ const Products = () => {
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item lead">$ {product.price}</li>
+                  <li className="list-group-item lead">INR {product.price}</li>
                   {/* <li className="list-group-item">Dapibus ac facilisis in</li>
                     <li className="list-group-item">Vestibulum at eros</li> */}
                 </ul>
                 <div className="card-body">
                   <Link to={"/product/" + product.id} className="btn btn-dark m-1">
-                    Buy Now
+                    Buy Now 
                   </Link>
                 </div>
               </div>
